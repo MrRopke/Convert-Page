@@ -1,0 +1,55 @@
+$fontColor: #0091aa;
+$colorHeading: #be4a14;
+#content  // div with id: content
+{
+    color: $fontColor;
+}
+
+h2
+{
+    height: 45px;    
+    width: 412px;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.btn {
+    background-color:  rgb(51, 153, 255);
+    border-color: black;
+    height: 50px;    
+    margin: 2px;
+    text-align: center;
+}
+
+.inp {
+    background-color: white;
+    border-color: black;
+    height: 45px;    
+    margin: 2px;    
+    text-align: center;
+}
+
+.inp2 {
+    background-color: white;
+    border-color: black;
+    height: 45px;    
+    width: 404px;
+    margin: 2px;    
+    text-align: center;
+}
+
+.thetext {
+    text-align: center;
+}
+
+body {
+    max-width: 412px;
+    margin: auto;
+    background-color: rgb(242, 242, 242);
+}
+
+
+
